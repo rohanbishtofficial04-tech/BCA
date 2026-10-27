@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: gilroy;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%; /*or 100vh (viewport height*/
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: #555;
+  font-size: 10rem;
+  font-weight: 300;
+  user-select: none;
+}

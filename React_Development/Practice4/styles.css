@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+#piano {
+  display: flex;
+}
+
+.key {
+    width: 80px;
+    height: 250px;
+    background: white;
+    border: 3px solid black;
+    border-left: none;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.key:first-child {
+    border-left: 3px solid black;
+}
+
+.key:active {
+  background: #e3e3e3;
+}

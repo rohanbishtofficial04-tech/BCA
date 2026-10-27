@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Form</title>
+    <style>
+        body{
+            background-image: url(/TBC_301/OIP.jfif);
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Objective 7</h1>
+    </center>
+    <h1>FORM</h1>
+    <form>
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required>
+        </div><br>
+            <div>
+            <label for="fname">Last Name:</label>
+            <input type="text" id="lname">
+        </div><br>
+        <div>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </div><br>
+        <div>
+            <label for="tel">Mobile No:</label>
+            <input type="text" name="phone no" required pattern="[0-9]{10}">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div><br>
+        <div>
+            <label for="date">Date of birth</label>
+            <input type="date" id="birthday">
+        </div><br>
+        <div>
+            <label for="Address">Address:</label>
+            <textarea type="address" row="5" cols="50"></textarea>
+        </div><br>
+        <div>
+            <label for="qualification">Qualification</label><br>
+            <input type="checkbox">
+            <label for="10">10th</label><br>
+            <input type="checkbox">
+            <label for="12">12th</label><br>
+            <input type="checkbox">
+            <label for="graduation">Graduation</label><br>
+            <input type="checkbox">
+            <label for="post">Post Graduation
+            </label><br>
+        </div><br>
+        <div>
+            <label for="bgroup">Blood group:</label>
+            <select name="bgroup">
+                <option>Select your Blood Group</option>
+                <option type="O+ve">O+ve</option>
+               <option type="O-ve">O-ve</option> 
+               <option type="B+ve">B+ve</option>
+               <option type="AB+ve">AB+ve</option>
+               <option type="Ab-ve">AB-ve</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="Reset" value="Reset">
+            <input type="Submit" value="Submit">
+        </div>
+
+    </form>
+    </form>
+</body>
+</html>

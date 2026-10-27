@@ -1,0 +1,14 @@
+h1{
+    color: rgb(51, 255, 0);
+}
+.hello{
+    background-color: blue;
+}
+
+.highlight{
+    background-color: red;
+}
+.fontsize{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
